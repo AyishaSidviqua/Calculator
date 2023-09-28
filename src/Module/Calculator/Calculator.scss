@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+
+body{
+    background-color: $light-grey;
+}
+.container-head{
+    width: 40%;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
