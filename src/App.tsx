@@ -1,13 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Calculator from './Module/Calculator/Calculator';
+import UseFormikLoginForm from './Module/UseFormikLoginForm';
+
 
 function App() {
   return (
-    <div >
-        <Calculator/>
+    <div className="App">
+      <UseFormikLoginForm />
     </div>
+
+
+
   );
 }
 
